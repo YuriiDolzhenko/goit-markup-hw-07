@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Document</title>
+</head>
+<body class="body">
+    <header class="header portfolio">
+        <div class="container main">
+            <nav class="main-nav">
+                <!-- Логотип -->
+            <a class="logo-link" href="../index.html">
+                <p class="logo-text"><span class="logo">Web</span>Studio</p>
+            </a>
+            <!-- Навигация на другие страницы -->
+            <ul class="nav-link">
+                <li class="nav-li"><a class="active" href="../index.html">Студия</a></li>
+                <li class="nav-li"><a class="active current" href="./portfolio.html">Портфолио</a></li>
+                <li class="nav-li"><a class="active" href="#address">Контакты</a></li>
+            </ul>
+            </nav>
+            <ul class="header-li">
+                <!-- Ссылка на адрес электронной почты  -->
+                <li class="phone"><a class="link-phone" href="mailto:info@devstudio.com">
+                        <svg class="icon-contact" width="16" height="12">
+                            <use href="../images/icons/sprite.svg#envelope"></use>
+                        </svg>
+                        <span>info@devstudio.com</span></a></li>
+                <!-- Ссылка на телефонный номер -->
+                <li class="phone"><a class="link-phone" href="tel:+380961111111">
+                        <svg class="icon-contact" width="10" height="16">
+                            <use href="../images/icons/sprite.svg#smartphone"></use>
+                        </svg>
+                        <span>+38 096 111 11 11</span></a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main-portfolio">  
+        <section>
+        <div class="container portfolio">
+        <h2 class="title visually-hidden">Фильтр выбора проекта</h2>
+        <ul class="benefits center">
+            <li class="benefits-list"><button class="benefits-button" type="button">Все</button></li>
+            <li class="benefits-list"><button class="benefits-button" type="button">Веб-сайты</button></li>
+            <li class="benefits-list"><button class="benefits-button" type="button">Приложения</button></li>
+            <li class="benefits-list"><button class="benefits-button" type="button">Дизайн</button></li>
+            <li class="benefits-list"><button class="benefits-button" type="button">Маркетинг</button></li>
+        </ul>
+        <h2 class="title visually-hidden">Наши проекты</h2>
+        <ul class="projects">
+            <li class="projects-item">
+                <a href="projects-a">
+                <img src="../images/Tekhnokryak.jpg" alt="Технокряк" width="370">
+                <div class="projects-text">
+                <h3>Технокряк</h3>
+                <p>Веб-сайт</p>
+                <p class="overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+                шпионажа и атак на защищённые сервера конкурентов.</p>
+                </div>
+                </a>
+                
+            </li>
+            <li class="projects-item"><a href="">
+                <img src="../images/novsgs.jpg" alt="Постер New Orlean vs Golden Star" width="370">
+                <div class="projects-text">
+                <h3>Постер New Orlean vs Golden Star</h3>
+                <p>Дизайн</p>
+                <p class="overlay">Все друзья хотят меня женить, потому что люди не выносят, когда кому-нибудь хорошо.</p>
+                </div>
+            </a>
+            </li>
+            <li class="projects-item"><a href="">
+                <img src="../images/seafood.jpg" alt="Ресторан Seafood" width="370">
+                <div class="projects-text">
+                <h3>Ресторан Seafood</h3>
+                <p>Приложение</p>
+                <p class="overlay">Если вам говорят, что вы многогранная личность — не обольщайтесь. Может быть, имеется в виду, что вы гад, сволочь и
+                паразит одновременно.</p>
+            </div>
+            </a>
+            </li>
+            <li class="projects-item"><a href="">
+                <img src="../images/prime.jpg" alt="Проект Prime" width="370">
+                <div class="projects-text">
+                <h3>Проект Prime</h3>
+                <p>Маркетинг</p>
+                <p class="overlay">Алкоголь в малых дозах безвреден в любом количестве.</p>
+            </div>
+            </a>
+            </li>
+            <li class="projects-item"><a href="">
+                <img src="../images/boxes.jpg" alt="Проект Boxes" width="370">
+                <div class="projects-text">
+                <h3>Проект Boxes</h3>
+                <p>Приложение</p>
+                <p class="overlay">Выключили электричество, и в городе воцарилась полная тишина.
+                Оказывается, звуки исходят не от людей.
+                Они уже давно-давно молчат.</p>
+            </div>
+            </a>
+            </li>
+            <li class="projects-item"><a href="">
+                <img src="../images/Inspiration_has_no_Borders.jpg" alt="Inspiration has no Borders" width="370">
+                <div class="projects-text">
+                <h3 lang="en">Inspiration has no Borders</h3>
+                <p>Веб-сайт</p>
+                <p class="overlay">А юмор — это жизнь. Это состояние. Это не шутки. Это искры в глазах. Это влюбленность в собеседника и готовность
+                рассмеяться до слез.</p>
+            </div>
+            </a>
+            </li>
+            <li class="projects-item"><a href="">
+                <img src="../images/le.jpg" alt="Издание Limited Edition" width="370">
+                <div class="projects-text">
+                <h3>Издание Limited Edition</h3>
+                <p>Дизайн</p>
+                <p class="overlay">Никогда не женись на женщине, с которой можно жить. Женись на той, без которой жить нельзя.</p>
+            </div>
+            </a>
+            </li>
+            <li class="projects-item"><a href="">
+                <img src="../images/lab.jpg" alt="Проект LAB" width="370">
+                <div class="projects-text">
+                <h3>Проект LAB</h3>
+                <p>Маркетинг</p>
+                <p class="overlay">Алкоголь в малых дозах безвреден в любом количестве.</p>
+            </div>
+            </a>
+            </li>
+            <li class="projects-item"><a href="">
+                <img src="../images/Growing_Business.jpg" alt="Growing Business" width="370">
+                <div class="projects-text">
+                <h3>Growing Business</h3>
+                <p>Приложение</p>
+                <p class="overlay">Ученые Гарвардского университета установили, что белые мыши размножаются намного лучше, если им не мешают ученые
+                Гарвардского университета.</p>
+            </div>
+            </a>
+            </li>
+        </ul>   
+        </div>  
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <!-- Логотип -->
+            <div class="footer-left">
+            <a href="../index.html">
+                <p class="footer-logo"><span class="logo">Web</span>Studio</p>
+            </a>
+            <address id="address">
+                <!-- Ссылка на адрес -->
+                <a class="google-address link" target="_blank" href="https://goo.gl/maps/JPTJLpiqcLhhmCbZ7">
+                    г. Киев, пр-т Леси Украинки, 26
+                </a>
+                <!-- Ссылка на адрес электронной почты  -->
+                <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
+                <!-- Ссылка на телефонный номер -->
+                <a class="footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
+            </address>
+            </div>
+            <div class="footer-join">
+                <b class="title">Присоединяйтесь</b>
+                <ul class="footer-icon">
+                    <li class="footer-list">
+                        <a class="footer-links-icon" href="">
+                            <svg class="footer-icon">
+                                <use href="../images/icons/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-links-icon" href="">
+                            <svg class="footer-icon">
+                                <use href="../images/icons/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-links-icon" href="">
+                            <svg class="footer-icon">
+                                <use href="../images/icons/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-list">
+                        <a class="footer-links-icon" href="">
+                            <svg class="footer-icon">
+                                <use href="../images/icons/sprite.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-part">
+                <h3 class="title">Подпишитесь на рассылку</h3>
+                <form class="form-submit">
+                    <label class="form-label-footer">
+                        <input type="email" class="form-input-footer" name="mail" placeholder="E-mail" autocomplete="off" />
+                    </label>
+                    <button type="submit" class="button-submit">
+                        <span>Подписаться</span>
+                        <svg width="24" height="24">
+                            <use href="../images/icons/sprite.svg#send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
