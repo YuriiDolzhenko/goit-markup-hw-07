@@ -14,7 +14,8 @@
     },
     ],
     "liveSassCompile.settings.excludeList": ["**/node_modules/**",".vscode/**"],
-    "liveSassCompile.settings.excludeList": ["path/subpath/*[!(file1|file2)].scss"]
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
     "liveSassCompile.settings.includeItems": ["path/subpath/a.scss","path/subpath/b.scss"]
 
 
