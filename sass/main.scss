@@ -1,5 +1,30 @@
 @import './utils/variables';
 @import './utils/placeholders';
 @import './utils/mixins';
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-https: ; //github.com/TanyaHoncharova/goit-markup-hw-07 https://tanyahoncharova.github.io/goit-markup-hw-07
+
+@import './components/header';
+@import './components/hero';
+@import './components/desc';
+@import './components/foto';
+@import './components/komanda';
+@import './components/clients';
+@import './components/footer';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+// @import './base/modern-normalize'
+// https: ; //github.com/TanyaHoncharova/goit-markup-hw-07 https://tanyahoncharova.github.io/goit-markup-hw-07
