@@ -1,0 +1,35 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет #212121 */
+/* первичный цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* акцент #2196F3 */
+/* цвет иконок серый #AFB1B8 */
+
+/* https://elenrosee.github.io/it-studio/ */
+
+// :root {
+//   $primary-text-color: #757575;
+//   $secondary-text-color: #212121;
+//   $primary-background-color: #ffffff;
+//   $secondary-background-color: #f5f4fa;
+//   $akcent-color: #2196f3;
+//   $logo-color: #000000;
+//   $border-color: #ececec;
+//   $footer-color: #2f303a;
+//   $icon-gray-color: #afb1b8;
+// }
+$colors: (
+  'primary-text-color': #757575,
+  'secondary-text-color': #212121,
+  'primary-background-color': #ffffff,
+  'secondary-background-color': #f5f4fa,
+  'akcent-color': #2196f3,
+  'logo-color': #000000,
+  'border-color': #ececec,
+  'footer-color': #2f303a,
+  'icon-gray-color': #afb1b8,
+);
+
+@function getColor($key) {
+  @return map-get($colors, $key);
+}

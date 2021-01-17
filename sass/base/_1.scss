@@ -1,0 +1,52 @@
+/* Остальной код */
+.body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  font-display: swap;
+  background-color: getColor('primary-background-color');
+  color: getColor('primary-text-color');
+}
+* {
+  padding: 0;
+  margin: 0;
+  /* outline: 2px solid tomato; */
+}
+ul,
+.link,
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  color: getColor('secondary-text-color');
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  padding: 0;
+  margin: 0;
+}
+h3 {
+  color: getColor('secondary-text-color');
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+.body .container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}

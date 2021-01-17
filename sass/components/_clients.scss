@@ -1,0 +1,45 @@
+/* Clients */
+
+.clients-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: getColor('secondary-text-color');
+}
+
+.clients-lists {
+  display: flex;
+  margin: 0 -15px;
+}
+
+.clients .list {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.clients .link {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid getColor('icon-gray-color');
+  border-radius: 4px;
+  color: getColor('icon-gray-color');
+  fill: getColor('icon-gray-color');
+}
+
+.clients-lists .link:hover {
+  color: getColor('akcent-color');
+  fill: getColor('akcent-color');
+  border-color: getColor('akcent-color');
+}
+
+.clients .icon {
+  fill: currentColor;
+}
