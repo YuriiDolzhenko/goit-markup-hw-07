@@ -1,13 +1,14 @@
+.header {
+  height: 80px;
+}
 .main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80px;
 }
 .main-nav {
   display: flex;
   align-items: center;
-  height: 80px;
 }
 .logo-link {
   font-family: 'Raleway', sans-serif;
