@@ -14,6 +14,12 @@
 .clients-lists {
   display: flex;
   margin: 0 -15px;
+
+  & .link:hover {
+    color: getColor('akcent-color');
+    fill: getColor('akcent-color');
+    border-color: getColor('akcent-color');
+  }
 }
 
 .clients .list {
@@ -22,22 +28,14 @@
 }
 
 .clients .link {
-  display: flex;
+  @include flex-center();
   width: 170px;
   height: 90px;
-  align-items: center;
-  justify-content: center;
 
   border: 1px solid getColor('icon-gray-color');
   border-radius: 4px;
   color: getColor('icon-gray-color');
   fill: getColor('icon-gray-color');
-}
-
-.clients-lists .link:hover {
-  color: getColor('akcent-color');
-  fill: getColor('akcent-color');
-  border-color: getColor('akcent-color');
 }
 
 .clients .icon {

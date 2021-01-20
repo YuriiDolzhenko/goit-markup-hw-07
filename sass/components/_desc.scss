@@ -3,10 +3,17 @@
   padding-bottom: 94px;
 }
 .desc {
-  display: flex;
-}
-.desc .center {
-  justify-content: center;
+  @include flex-center();
+
+  & .desc-li::before {
+    display: block;
+    content: '';
+    height: 120px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: getColor('secondary-background-color');
+  }
 }
 
 .desc-li:not(:last-child) {
@@ -29,15 +36,6 @@
 }
 .desc-text {
   margin-bottom: 10px;
-}
-.desc .desc-li::before {
-  display: block;
-  content: '';
-  height: 120px;
-  margin-bottom: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: getColor('secondary-background-color');
 }
 
 .icons-antena::before {

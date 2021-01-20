@@ -5,20 +5,23 @@
 }
 .img-link {
   display: flex;
+
+  & img {
+    display: block;
+    z-index: 1;
+  }
 }
-.img-li:not(:first-child) {
-  margin-left: 30px;
-}
-.img-link img {
-  display: block;
-  z-index: 1;
+.img-li {
+  position: relative;
+
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
 }
 .img-text {
   margin-bottom: 50px;
 }
-.img-li {
-  position: relative;
-}
+
 .img-posit {
   z-index: 2;
   bottom: 0;
