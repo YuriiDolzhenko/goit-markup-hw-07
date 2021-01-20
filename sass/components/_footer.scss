@@ -35,7 +35,7 @@
 .footer-link {
   display: block;
   font-style: normal;
-  color: rgb(255, 255, 255, 0.6);
+  color: getColor('footer-link-color');
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

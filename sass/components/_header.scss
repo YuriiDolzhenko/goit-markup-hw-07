@@ -90,3 +90,6 @@
   color: getColor('akcent-color');
   fill: getColor('akcent-color');
 }
+.header {
+  border-bottom: 1px solid getColor('border-color');
+}

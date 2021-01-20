@@ -28,6 +28,7 @@ $colors: (
   'border-color': #ececec,
   'footer-color': #2f303a,
   'icon-gray-color': #afb1b8,
+  'footer-link-color': rgba(255, 255, 255, 0.6),
 );
 
 @function getColor($key) {

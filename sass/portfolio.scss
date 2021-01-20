@@ -1,7 +1,9 @@
 @import './utils/color';
 @import './utils/placeholders';
 @import './utils/mixins';
-@import './base/1';
+
+@import './general/common';
+@import './general/container';
 
 @import './components/header';
 @import './components/portfolio';

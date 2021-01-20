@@ -1,7 +1,9 @@
 @import './utils/color';
 @import './utils/placeholders';
 @import './utils/mixins';
-@import './base/1';
+
+@import './general/common';
+@import './general/container';
 
 @import './components/header';
 @import './components/hero';
@@ -10,21 +12,6 @@
 @import './components/komanda';
 @import './components/clients';
 @import './components/footer';
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 // @import './base/modern-normalize'
